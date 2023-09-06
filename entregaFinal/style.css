@@ -9,7 +9,6 @@ body {
 }
 
 header {
-    /* outline: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +29,6 @@ header {
 }
 
 .search-container {
-    /* outline: 1px solid red; */
     display: flex;
     width: 50%;
 }
@@ -94,7 +92,6 @@ header {
 }
 
 #resultado {
-    /* outline: 1px solid blue; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,7 +99,6 @@ header {
 }
 
 .pokeimg {
-    /* outline: 1px solid yellow; */
     width: 45%;
     position: relative;
     bottom: 42px;
@@ -117,10 +113,7 @@ header {
     bottom: 80px;
 }
 
-/* maquetar primero las abilidades y luego consumir */
-
 .caracteristicas {
-    /* outline: 1px solid black; */
     display: none;
     flex-wrap: wrap;
     width: 60%;
@@ -135,7 +128,6 @@ header {
 }
 
 .caracteristicas-contenedor {
-    /* outline: 1px solid red; */
     width: 50%;
     display: flex;
     align-items: center;
