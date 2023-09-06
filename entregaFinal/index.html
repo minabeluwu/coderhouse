@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="pokecolor.css" />
+        <title>Pokedex</title>
+    </head>
+    <body>
+        <header>
+            <img src="img/pokeball.png" alt="" class="pokeball-img">
+            <h1 class="title">Pokedex</h1>
+        </header>
+        <div class="pokedex-container">
+            <div class="search-container">
+                <div class="search-card">
+                    <p class="choose-pokemon">Elige a tu pokemon!</p>
+
+                    <form action="" id="formid">
+                        <input type="text" id="pokemonid" />
+        
+                        <button type="submit" class="botton">Search</button>
+                    </form>
+                </div>
+                <img src="img/gameboy-pokemon.PNG" alt="" class="gameboy-img">
+            </div>
+            <div id="resultado">
+                <img id="pokeimg" class="pokeimg">
+                <h2 id="titlePokemon" class="titlePokemon"></h2>
+                <div id="caracteristicas" class="caracteristicas">
+                    <div id="height" class="caracteristicas-contenedor"></div>
+                    <div id="type" class="caracteristicas-contenedor"></div>
+                    <div id="weight" class="caracteristicas-contenedor"></div>
+                    <div id="abilities" class="caracteristicas-contenedor"></div>           
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

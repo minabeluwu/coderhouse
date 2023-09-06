@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFC3C3;
+    padding: 0 50px;
+}
+
+header {
+    /* outline: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px 0 0 ;
+}
+.pokedex-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.pokeball-img {
+    width: 70px;
+}
+
+.title {
+    font-size: 50px;
+    color: #FF6666;
+}
+
+.search-container {
+    /* outline: 1px solid red; */
+    display: flex;
+    width: 50%;
+}
+.search-card {
+    background-color: #ff5da25e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 80vh;
+    border-radius: 31px;
+}
+.choose-pokemon {
+    color: #fff;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 30px 0 20px 0;
+}
+#formid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pokemonid {
+    height: 25px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 5px;
+    background-color: #ffffff8a;
+}
+
+.botton {
+    border: 2px solid #FF6666;
+    border-radius: 50px;
+    color: #FF6666;
+    font-weight: bold;
+    width: 45%;
+    height: 5vh;
+    margin: 20px 0 0 0;
+    background: none;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.botton:hover {
+    background: #FF6666;
+    color: #fff;
+}
+
+.gameboy-img {
+    height: 68%;
+    border-radius: 10px;
+    position: relative;
+    top: 165px;
+    right: 86px;
+}
+
+#resultado {
+    /* outline: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.pokeimg {
+    /* outline: 1px solid yellow; */
+    width: 45%;
+    position: relative;
+    bottom: 42px;
+}
+
+.titlePokemon {
+    color: #FF6666;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 80px;
+}
+
+/* maquetar primero las abilidades y luego consumir */
+
+.caracteristicas {
+    /* outline: 1px solid black; */
+    display: none;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 40vh;
+    position: relative;
+    bottom: 33px;
+    background-color: #ffffff8a;
+    border-radius: 10px;
+}
+.caracteristicas.active {
+    display: flex;
+}
+
+.caracteristicas-contenedor {
+    /* outline: 1px solid red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    Line-height: 24px;
+    color: #333;
+}
+
+.caracteristicas-contenedor:nth-child(2) {
+    border-top-right-radius: 10px;  
+}
+.caracteristicas-contenedor:nth-child(4) {
+    list-style: none;
+    flex-direction: column; 
+    align-items: baseline;  
+}
